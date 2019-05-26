@@ -1,5 +1,3 @@
-clc
-
 fid = fopen('liebase.ldb');
 allLies = textscan(fid, '%s %s %s', 'Delimiter',',');
 fclose(fid);
