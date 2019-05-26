@@ -1,2 +1,2 @@
 # avlie
-Automatic Varying Lie Generator
+automatic varying lie generator
