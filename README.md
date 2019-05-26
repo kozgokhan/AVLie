@@ -1,2 +1,2 @@
-# AVLie
+# avlie
 Automatic Varying Lie Generator
