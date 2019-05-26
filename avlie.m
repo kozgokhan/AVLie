@@ -1,3 +1,5 @@
+function avlie
+
 fid = fopen('liebase.ldb');
 allLies = textscan(fid, '%s %s %s', 'Delimiter',',');
 fclose(fid);
@@ -16,3 +18,5 @@ fprintf('+%s+\n',repmat('-',1,textAreaLength));
 fprintf('| %s%s%s |\n', repmat(' ',1,lieShiftLeft), allLies{1,1}{randLie}, repmat(' ',1,lieShift));
 fprintf('| %72s %s |\n',allLies{1,2}{randLie}, repmat(' ', 1, 5));
 fprintf('+%s+\n',repmat('-',1,80));
+
+end
